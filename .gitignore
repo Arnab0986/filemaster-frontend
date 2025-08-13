@@ -1,0 +1,62 @@
+# ================================
+# Node & React project ignores
+# ================================
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor & OS specific files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Test coverage output
+coverage/
+
+# Build artifacts
+*.tgz
+
+# ================================
+# Prevent tracking parent system files
+# ================================
+/Desktop/
+/Documents/
+/Downloads/
+/Music/
+/Pictures/
+/Videos/
+/Saved Games/
+/OneDrive/
+/Contacts/
+/Favorites/
+/Searches/
+/AppData/
+
+# Windows user profile database files
+NTUSER.DAT*
+ntuser.*
