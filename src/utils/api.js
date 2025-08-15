@@ -1,8 +1,4 @@
-// Automatically switch API base URL based on environment
-const API_BASE_URL =
-  window.location.hostname === 'localhost'
-    ? 'http://localhost:5000/api/files' // Development backend
-    : 'https://filemaster-backend.onrender.com/api/files'; // Production backend
+const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000/api/files';
 
 export const uploadFile = async (formData) => {
   try {
